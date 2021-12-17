@@ -64,7 +64,7 @@ namespace programm13_11
                 }
                 return balance;
             }
-        [Conditional("DEBUGGING")]
+        [Conditional("DEBUG_ACCOUNT")]
         public void DumpToScreen()
         {
             Console.WriteLine($"Индекс счёта: {id}, Баланс счета:{balance} ,Тип счета:{accountType}");

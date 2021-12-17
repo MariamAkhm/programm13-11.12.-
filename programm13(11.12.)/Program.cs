@@ -1,6 +1,4 @@
-﻿#if (DEBUG)
-#define DEBUG_ACCOUNT
-#endif
+﻿#define DEBUG_ACCOUNT
 using System;
 using System.Collections.Generic;
 using System.Linq;
